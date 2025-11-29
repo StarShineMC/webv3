@@ -1,7 +1,7 @@
 import { Box, Hammer, Shield, Zap, Globe, Github, Gamepad2, Layers, Cpu, Sparkles } from 'lucide-react';
 import { TeamMember, Feature, SocialLink } from './types';
 
-export const SERVER_IP = "play.starshine.cn";
+export const SERVER_IP = "8bc.top";
 
 export const NAV_LINKS = [
   { name: '特色', href: '#features' }, // Features
