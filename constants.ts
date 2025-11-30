@@ -14,43 +14,43 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: "Xk233",
     role: "服主 / Owner",
-    avatar: "http://q1.qlogo.cn/g?b=qq&nk=3477822048&s=100",
+    avatar: "https://q.qlogo.cn/headimg_dl?dst_uin=3477822048&spec=640&img_type=jpg",
     description: "服务器主要负责人，拥有多年运维经验，致力于提供最稳定的物理机公网体验。"
   },
   {
     name: "Mai",
     role: "首席建筑师 / Lead Builder",
-    avatar: "https://picsum.photos/seed/builder1/150/150",
+    avatar: "https://q.qlogo.cn/headimg_dl?dst_uin=195066&spec=640&img_type=jpg",
     description: "具有极高的审美与建筑造诣，负责服务器主城与RPG地图的宏大场景设计。"
   },
   {
     "name": "Mu_xinf",
     "role": "创始人/合伙人",
-    "avatar": "https://picsum.photos/seed/muxinf/150/150",
+    "avatar": "https://q.qlogo.cn/headimg_dl?dst_uin=3572115328&spec=640&img_type=jpg",
     "description": "服务器创始人之一，负责整体规划与战略决策，带领团队不断发展壮大。"
   },
   {
     "name": "huoda520",
     "role": "协管/建筑师",
-    "avatar": "https://picsum.photos/seed/huoda520/150/150",
+    "avatar": "https://q.qlogo.cn/headimg_dl?dst_uin=2762686795&spec=640&img_type=jpg",
     "description": "擅长建筑设计与服务器管理，协助维护服务器秩序并参与重要建筑项目。"
   },
   {
     "name": "Qicwken",
     "role": "技术协助",
-    "avatar": "https://picsum.photos/seed/qicwken/150/150",
+    "avatar": "https://q.qlogo.cn/headimg_dl?dst_uin=3129666215&spec=640&img_type=jpg",
     "description": "负责服务器技术支持与插件维护，保障服务器稳定运行与功能优化。"
   },
   {
     "name": "冥",
     "role": "协管",
-    "avatar": "https://picsum.photos/seed/ming/150/150",
+    "avatar": "https://q.qlogo.cn/headimg_dl?dst_uin=2188273644&spec=640&img_type=jpg",
     "description": "协助管理服务器日常事务，维护社区秩序与玩家体验。"
   },
   {
     "name": "QD_OS",
     "role": "协管",
-    "avatar": "https://picsum.photos/seed/qdos/150/150",
+    "avatar": "https://q.qlogo.cn/headimg_dl?dst_uin=1419863485&spec=640&img_type=jpg",
     "description": "积极参与服务器管理与运营，协助处理玩家问题与活动组织。"
   }
 ];
