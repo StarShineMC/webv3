@@ -14,7 +14,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: "Xk233",
     role: "服主 / Owner",
-    avatar: "https://picsum.photos/seed/admin1/150/150",
+    avatar: "http://q1.qlogo.cn/g?b=qq&nk=3477822048&s=100",
     description: "服务器主要负责人，拥有多年运维经验，致力于提供最稳定的物理机公网体验。"
   },
   {
