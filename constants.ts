@@ -12,19 +12,19 @@ export const NAV_LINKS = [
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
-    name: "StarAdmin",
+    name: "Xk233",
     role: "服主 / Owner",
     avatar: "https://picsum.photos/seed/admin1/150/150",
     description: "服务器主要负责人，拥有多年运维经验，致力于提供最稳定的物理机公网体验。"
   },
   {
-    name: "BlockMaster",
+    name: "Mai",
     role: "首席建筑师 / Lead Builder",
     avatar: "https://picsum.photos/seed/builder1/150/150",
     description: "具有极高的审美与建筑造诣，负责服务器主城与RPG地图的宏大场景设计。"
   },
   {
-    name: "CodeWizard",
+    name: "CodeWizar",
     role: "技术总监 / Tech Lead",
     avatar: "https://picsum.photos/seed/dev1/150/150",
     description: "精通Java与插件开发，技术水平优越，保障服务器核心稳定与独家玩法实现。"
