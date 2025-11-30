@@ -24,16 +24,34 @@ export const TEAM_MEMBERS: TeamMember[] = [
     description: "具有极高的审美与建筑造诣，负责服务器主城与RPG地图的宏大场景设计。"
   },
   {
-    name: "CodeWizar",
-    role: "技术总监 / Tech Lead",
-    avatar: "https://picsum.photos/seed/dev1/150/150",
-    description: "精通Java与插件开发，技术水平优越，保障服务器核心稳定与独家玩法实现。"
+    "name": "Mu_xinf",
+    "role": "创始人/合伙人",
+    "avatar": "https://picsum.photos/seed/muxinf/150/150",
+    "description": "服务器创始人之一，负责整体规划与战略决策，带领团队不断发展壮大。"
   },
   {
-    name: "CommunityMod",
-    role: "社区管理 / Admin",
-    avatar: "https://picsum.photos/seed/mod1/150/150",
-    description: "耐心细致的社区守护者，快速响应玩家需求，维护和谐友爱的游戏环境。"
+    "name": "huoda520",
+    "role": "协管/建筑师",
+    "avatar": "https://picsum.photos/seed/huoda520/150/150",
+    "description": "擅长建筑设计与服务器管理，协助维护服务器秩序并参与重要建筑项目。"
+  },
+  {
+    "name": "Qicwken",
+    "role": "技术协助",
+    "avatar": "https://picsum.photos/seed/qicwken/150/150",
+    "description": "负责服务器技术支持与插件维护，保障服务器稳定运行与功能优化。"
+  },
+  {
+    "name": "冥",
+    "role": "协管",
+    "avatar": "https://picsum.photos/seed/ming/150/150",
+    "description": "协助管理服务器日常事务，维护社区秩序与玩家体验。"
+  },
+  {
+    "name": "QD_OS",
+    "role": "协管",
+    "avatar": "https://picsum.photos/seed/qdos/150/150",
+    "description": "积极参与服务器管理与运营，协助处理玩家问题与活动组织。"
   }
 ];
 
