@@ -6,19 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>星光 StarShine Server</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <style>
       body {
         font-family: 'Noto Sans SC', sans-serif;
-        background-color: #0f172a;
-        color: white;
       }
       .glass-nav {
-        background: rgba(15, 23, 42, 0.7);
+        background: rgba(255, 255, 255, 0.8);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+      }
+      .dark .glass-nav {
+        background: rgba(15, 23, 42, 0.7);
       }
       /* Smooth scrolling */
       html {

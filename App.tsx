@@ -1,24 +1,47 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import News from './components/News';
 import Future from './components/Future';
 import Team from './components/Team';
 import Footer from './components/Footer';
 
 function App() {
-  // Simple fade-in effect on load
+  const [isDark, setIsDark] = useState(true);
+
+  // Initialize theme
   useEffect(() => {
+    // Check system preference or default to dark
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+      setIsDark(false);
+    }
+    
+    // Fade-in effect
     document.body.classList.add('opacity-100');
     document.body.classList.remove('opacity-0');
   }, []);
 
+  // Update HTML class when theme changes
+  useEffect(() => {
+    if (isDark) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [isDark]);
+
+  const toggleTheme = () => {
+    setIsDark(!isDark);
+  };
+
   return (
-    <div className="min-h-screen bg-[#0f172a] text-white selection:bg-yellow-400 selection:text-black">
-      <Navbar />
+    <div className={`min-h-screen transition-colors duration-300 ${isDark ? 'bg-[#0f172a] text-white' : 'bg-slate-50 text-slate-900'} selection:bg-yellow-400 selection:text-black`}>
+      <Navbar isDark={isDark} toggleTheme={toggleTheme} />
       <main>
-        <Hero />
+        <Hero isDark={isDark} />
         <About />
+        <News />
         <Future />
         <Team />
       </main>
